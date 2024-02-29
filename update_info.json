@@ -1,6 +1,6 @@
 {
     "version": "1.0.8",
     "versionCode": 9,
-    "zipUrl": "https://github.com/mbadaz/E2ECE-Magisk-Module/releases/download/production/E2ECE.zip",
-    "changelog": "https://raw.githubusercontent.com/mbadaz/E2ECE-Magisk-Module/production/README.md"
+    "zipUrl": "https://github.com/mbadaz/E2ECE-Magisk-Module/releases/download/v1.0.8/E2ECE.zip",
+    "changelog": "https://raw.githubusercontent.com/mbadaz/E2ECE-Magisk-Module/v1.0.8/README.md"
 }

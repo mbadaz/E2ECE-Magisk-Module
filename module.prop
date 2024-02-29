@@ -4,4 +4,4 @@ version=1.0.8
 versionCode=9
 author=tapsmuzira@gmail.com
 description=The E2ECE Premium App
-updateJson=https://raw.githubusercontent.com/mbadaz/E2ECE-Magisk-Module/production/update_info.json
+updateJson=https://raw.githubusercontent.com/mbadaz/E2ECE-Magisk-Module/v1.0.8/update_info.json
