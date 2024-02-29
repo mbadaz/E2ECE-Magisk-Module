@@ -1,6 +1,7 @@
 id=com_e2ece_premium
 name=E2ECE Premium
-version=1.0.6
-versionCode=7
+version=1.0.7
+versionCode=8
 author=tapsmuzira@gmail.com
 description=The E2ECE Premium App
+updateJson=https://github.com/mbadaz/e2ece-magisk-module-updateinfo/blob/main/update_info.json
