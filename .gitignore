@@ -1,3 +1,2 @@
-system/priv-app/E2ECE/app-release.apk
-E2ECE-v1.0.6.zip
-common/app-release.apk
+*.apk
+*.zip
