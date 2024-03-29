@@ -3,6 +3,10 @@
 
 ## Changelog
 
+### v1.0.12
+* Fixed bugs in Voice Quality test
+* Fixed Online User data
+
 ### v1.0.10
 * Fixed bugs in Voice Quality test
 
