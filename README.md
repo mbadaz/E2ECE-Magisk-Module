@@ -3,6 +3,9 @@
 
 ## Changelog
 
+### v1.0.13
+* Fixed bug in radio kpi collection
+
 ### v1.0.12
 * Fixed bugs in Voice Quality test
 * Fixed Online User data
