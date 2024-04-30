@@ -3,6 +3,9 @@
 
 ## Changelog
 
+### v1.0.14
+* Added more radio kpis
+
 ### v1.0.13
 * Fixed bug in radio kpi collection
 
