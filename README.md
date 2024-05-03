@@ -3,6 +3,9 @@
 
 ## Changelog
 
+### v1.0.15
+* Fixed voice quality an voice call test results
+
 ### v1.0.14
 * Added more radio kpis
 
