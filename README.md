@@ -3,6 +3,11 @@
 
 ## Changelog
 
+### v1.0.16
+* Fixed date bug in call receive test
+* Added automatic answering of all calls
+* Added call duration field.
+
 ### v1.0.15
 * Fixed voice quality an voice call test results
 
