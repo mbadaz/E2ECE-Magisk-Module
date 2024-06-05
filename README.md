@@ -3,6 +3,9 @@
 
 ## Changelog
 
+### v1.0.17
+* Fixed crash when scheduling test
+
 ### v1.0.16
 * Fixed date bug in call receive test
 * Added automatic answering of all calls
