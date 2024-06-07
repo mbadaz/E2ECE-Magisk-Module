@@ -3,6 +3,10 @@
 
 ## Changelog
 
+### v1.0.18
+* Fixed Voice Quality test duration
+* Fixed Web browsing test in parallel multi test
+
 ### v1.0.17
 * Fixed crash when scheduling test
 
