@@ -3,6 +3,9 @@
 
 ## Changelog
 
+### v1.0.19
+* Fixed SMS send test
+
 ### v1.0.18
 * Fixed Voice Quality test duration
 * Fixed Web browsing test in parallel multi test

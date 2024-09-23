@@ -1,7 +1,7 @@
 id=com_e2ece_premium
 name=E2ECE Premium
-version=1.0.18
-versionCode=18
+version=1.0.19
+versionCode=19
 author=tapsmuzira@gmail.com
 description=The E2ECE Premium App
 updateJson=https://raw.githubusercontent.com/mbadaz/E2ECE-Magisk-Module/main/update_info.json
