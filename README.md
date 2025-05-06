@@ -3,6 +3,11 @@
 
 ## Changelog
 
+### v1.0.21
+* Fixed bugs in various tests including Iperf, SMS, Youtube and traceroute
+* Updated app to be compatible with android 14 SDK
+* Fixed the test scheduling logic.
+
 ### v1.0.20
 * Fixed Youtube test
 
