@@ -3,6 +3,12 @@
 
 ## Changelog
 
+### v1.0.22
+* Updated app to be compatible with android 15 SDK
+* Fixed crash on app first open.
+* Fixed app overlapping beneath status bar.
+* Updated iperf server list url
+
 ### v1.0.21
 * Fixed bugs in various tests including Iperf, SMS, Youtube and traceroute
 * Updated app to be compatible with android 14 SDK
