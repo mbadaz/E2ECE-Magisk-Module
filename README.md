@@ -3,6 +3,9 @@
 
 ## Changelog
 
+### v1.0.23
+* Added Network scan test
+
 ### v1.0.22
 * Updated app to be compatible with android 15 SDK
 * Fixed crash on app first open.
