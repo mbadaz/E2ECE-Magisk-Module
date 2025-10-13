@@ -3,6 +3,9 @@
 
 ## Changelog
 
+### v1.0.24
+* Fixed app crash
+
 ### v1.0.23
 * Added Network scan test
 
