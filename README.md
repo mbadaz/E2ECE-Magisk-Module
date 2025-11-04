@@ -3,6 +3,12 @@
 
 ## Changelog
 
+### v1.0.25
+* Fixed Youtube test
+* Fixed File download test
+* Added device status tracking
+* Fixed some various bugs
+
 ### v1.0.24
 * Fixed app crash
 
