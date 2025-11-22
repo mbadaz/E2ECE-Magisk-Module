@@ -3,6 +3,9 @@
 
 ## Changelog
 
+### v1.0.26
+* Fixed some bugs
+
 ### v1.0.25
 * Fixed Youtube test
 * Fixed File download test
