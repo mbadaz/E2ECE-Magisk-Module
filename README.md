@@ -3,6 +3,10 @@
 
 ## Changelog
 
+### v1.0.27
+* Fixed some bugs
+* Added more detail like battery status and device ON/OFF status to device status 
+
 ### v1.0.26
 * Fixed some bugs
 
