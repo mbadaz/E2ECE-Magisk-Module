@@ -3,6 +3,9 @@
 
 ## Changelog
 
+### v1.1.0
+* Added entering arbitrary test frequency
+
 ### v1.0.27
 * Fixed bugs
 
