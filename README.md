@@ -3,6 +3,9 @@
 
 ## Changelog
 
+### v1.2.0
+* Fixed Voice quality test
+
 ### v1.1.0
 * Added entering arbitrary test frequency
 
