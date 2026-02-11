@@ -1,5 +1,5 @@
-# SELinux policies for E2ECE call recording
-# Allow app to access audio devices for call recording
+# SELinux policies for E2ECE call recording and audio injection
+# Allow app to access audio devices for call recording and uplink injection
 
 # Allow platform apps to access voice call audio
 allow platform_app audio_device:chr_file { read write open ioctl };
@@ -20,3 +20,29 @@ allow priv_app hal_audio_default:binder { call transfer };
 # Additional permissions for call state monitoring
 allow priv_app radio_service:service_manager find;
 allow priv_app telephony_service:service_manager find;
+
+# Audio injection / uplink streaming permissions
+allow priv_app hal_audio_default:hwservice_manager find;
+allow priv_app audio_hal_hwservice:hwservice_manager find;
+allow priv_app audiohal_configstore_hwservice:hwservice_manager find;
+
+# Allow writing to audio output for uplink injection
+allow priv_app audio_device:chr_file { append write };
+allow platform_app audio_device:chr_file { append write };
+allow untrusted_app audio_device:chr_file { append write };
+
+# Allow access to audio HAL for stream injection
+allow priv_app hal_audio:binder { call transfer };
+allow priv_app hal_audio:fd use;
+allow priv_app audio_prop:property_service set;
+
+# Allow audio mixing and routing control
+allow priv_app audio_config_prop:file { read open getattr };
+allow priv_app audioserver:unix_stream_socket { connectto read write };
+allow priv_app audio_data_file:dir { search read open };
+allow priv_app audio_data_file:file { read write open create getattr };
+
+# MediaDRM and codec access for audio processing
+allow priv_app mediacodec:binder { call transfer };
+allow priv_app mediaserver:binder { call transfer };
+allow priv_app mediaextractor:binder { call transfer };

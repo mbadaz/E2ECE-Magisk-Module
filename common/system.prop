@@ -12,3 +12,21 @@ ro.call.recording.unrestricted=true
 
 # Allow VOICE_CALL audio source
 persist.vendor.audio.voicecall.speaker.stereo=true
+
+# Audio injection / uplink streaming properties
+ro.audio.usb.period_us=5000
+persist.audio.fluence.voicecall=true
+persist.audio.fluence.speaker=false
+ro.config.vc_call_vol_steps=15
+
+# Allow audio routing modifications
+ro.audio.monitorRotation=true
+
+# Enable voice call audio modification
+persist.audio.vns.mode=2
+persist.vendor.audio.endcall.delay=250
+persist.vendor.audio.inject.enabled=true
+
+# Disable audio restrictions
+ro.audio.ignore_effects=true
+persist.sys.audio.restrict=false
