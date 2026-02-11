@@ -1,3 +1,14 @@
 # This file will be read by resetprop
 # Example: Change dpi
 # ro.sf.lcd_density=320
+
+# Enable call recording
+ro.config.callrecording=true
+persist.call.recording.enabled=1
+persist.sys.callrecording=1
+
+# Disable call recording restrictions (for some OEMs)
+ro.call.recording.unrestricted=true
+
+# Allow VOICE_CALL audio source
+persist.vendor.audio.voicecall.speaker.stereo=true

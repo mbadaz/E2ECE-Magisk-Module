@@ -1,0 +1,22 @@
+# SELinux policies for E2ECE call recording
+# Allow app to access audio devices for call recording
+
+# Allow platform apps to access voice call audio
+allow platform_app audio_device:chr_file { read write open ioctl };
+allow platform_app audioserver:binder { call transfer };
+allow platform_app audioserver_service:service_manager find;
+
+# Allow untrusted apps (if app runs as untrusted) to access audio
+allow untrusted_app audio_device:chr_file { read write open ioctl };
+allow untrusted_app audioserver:binder { call transfer };
+allow untrusted_app audioserver_service:service_manager find;
+
+# Allow priv-app context for E2ECE
+allow priv_app audio_device:chr_file { read write open ioctl };
+allow priv_app audioserver:binder { call transfer };
+allow priv_app audioserver_service:service_manager find;
+allow priv_app hal_audio_default:binder { call transfer };
+
+# Additional permissions for call state monitoring
+allow priv_app radio_service:service_manager find;
+allow priv_app telephony_service:service_manager find;

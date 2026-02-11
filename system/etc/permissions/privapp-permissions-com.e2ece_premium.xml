@@ -1,8 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <permissions>
     <privapp-permissions package="com.e2ece_premium">
+        <!-- Audio capture permissions -->
         <permission name="android.permission.CAPTURE_AUDIO_OUTPUT"/>
+        <permission name="android.permission.RECORD_AUDIO"/>
+        
+        <!-- Phone state permissions -->
         <permission name="android.permission.READ_PRECISE_PHONE_STATE"/>
         <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+        <permission name="android.permission.READ_PHONE_STATE"/>
+        <permission name="android.permission.PROCESS_OUTGOING_CALLS"/>
+        <permission name="android.permission.READ_CALL_LOG"/>
+        <permission name="android.permission.CALL_PHONE"/>
+        
+        <!-- Background service permissions -->
+        <permission name="android.permission.FOREGROUND_SERVICE"/>
+        <permission name="android.permission.FOREGROUND_SERVICE_MICROPHONE"/>
+        <permission name="android.permission.FOREGROUND_SERVICE_PHONE_CALL"/>
+        <permission name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+        <permission name="android.permission.WAKE_LOCK"/>
+        
+        <!-- Storage for saving recordings -->
+        <permission name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+        <permission name="android.permission.READ_EXTERNAL_STORAGE"/>
+        <permission name="android.permission.MANAGE_EXTERNAL_STORAGE"/>
     </privapp-permissions>
 </permissions>
