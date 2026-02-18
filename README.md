@@ -3,6 +3,9 @@
 
 ## Changelog
 
+### v1.2.1
+* Fixed Voice quality test bugs
+
 ### v1.2.0
 * Fixed Voice quality test
 
