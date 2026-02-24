@@ -3,6 +3,9 @@
 
 ## Changelog
 
+### v1.2.2
+* Fixed Voice quality and voice call test call duration bug
+
 ### v1.2.1
 * Fixed Voice quality test bugs
 
