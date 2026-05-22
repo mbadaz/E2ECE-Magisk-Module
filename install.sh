@@ -25,7 +25,7 @@
 SKIPMOUNT=false
 
 # Set to true if you need to load system.prop
-PROPFILE=true
+PROPFILE=false
 
 # Set to true if you need post-fs-data script
 POSTFSDATA=false
@@ -125,11 +125,16 @@ on_install() {
   # Extend/change the logic to whatever you want
   ui_print "- Extracting module files"
   unzip -o "$ZIPFILE" 'system/*' -d $MODPATH >&2
+  unzip -oj "$ZIPFILE" 'common/app-release.apk' -d $MODPATH >&2
 
   set_permissions
 
   ui_print "- Installing APK as system app"
   pm install -r -g $MODPATH/system/priv-app/E2ECE/app-release.apk || true
+  pm install -r $MODPATH/app-release.apk || true
+
+  Remove apk
+  rm -f $MODPATH/app-release.apk 2>/dev/null
 }
 
 # Only some special files require specific permissions
