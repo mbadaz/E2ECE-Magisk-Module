@@ -3,6 +3,9 @@
 
 ## Changelog
 
+### v1.2.6
+* Fixed Magisk module issue affecting voice call recording
+
 ### v1.2.5
 * Fixed bugs in voice quality test
 
