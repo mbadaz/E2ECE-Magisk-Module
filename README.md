@@ -3,6 +3,9 @@
 
 ## Changelog
 
+### v1.2.7
+* Added SIM Connection Test
+
 ### v1.2.6
 * Fixed Magisk module issue affecting voice call recording
 
