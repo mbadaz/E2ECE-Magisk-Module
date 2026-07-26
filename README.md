@@ -3,6 +3,9 @@
 
 ## Changelog
 
+### v1.2.8
+* Added ENDC, SMSC Address number and APN kpis to all tests
+
 ### v1.2.7
 * Added SIM Connection Test
 
