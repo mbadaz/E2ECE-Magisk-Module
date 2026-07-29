@@ -3,6 +3,12 @@
 
 ## Changelog
 
+### v1.2.9
+* Fixed bugs in Youtube test and Ookla speed test
+* Fixed showing wifi KPIs only when wifi is connected and if test running on wifi
+* Fixed showing SMS KPI only for SMS tests
+
+
 ### v1.2.8
 * Added ENDC, SMSC Address number and APN kpis to all tests
 
