@@ -3,6 +3,10 @@
 
 ## Changelog
 
+### v1.5.0
+* Added Active Speech Level (ASL) and Active Speech Ratio (ASR) kpis to voice call tests
+* Fixed UI bugs
+
 ### v1.4.0
 * Fixed bugs and and made Ui improvements
 
