@@ -3,6 +3,9 @@
 
 ## Changelog
 
+### v1.6.0
+* Added Travel eSIM Connectivity Test
+
 ### v1.5.0
 * Added Active Speech Level (ASL) and Active Speech Ratio (ASR) kpis to voice call tests
 * Fixed UI bugs
