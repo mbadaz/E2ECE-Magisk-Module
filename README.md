@@ -3,6 +3,9 @@
 
 ## Changelog
 
+### v1.6.1
+* Added the WRITE_EMBEDDED_SUBSCRIPTIONS permission to allow the app to manage eSIM profiles on devices that support eSIM functionality.
+
 ### v1.6.0
 * Added Travel eSIM Connectivity Test
 
