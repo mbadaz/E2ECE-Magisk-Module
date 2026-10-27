@@ -3,6 +3,10 @@
 
 ## Changelog
 
+## v1.7.0
+* Split the Travel eSIM Connectivity Test into two separate tests: Travel eSIM Connectivity Test and eSIM Activation Test.
+* Fixed bugs in the app.
+
 ### v1.6.1
 * Added the WRITE_EMBEDDED_SUBSCRIPTIONS permission to allow the app to manage eSIM profiles on devices that support eSIM functionality.
 
