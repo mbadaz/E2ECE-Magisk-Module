@@ -3,6 +3,10 @@
 
 ## Changelog
 
+## v1.7.1
+* Fixed bugs in eSIM Activation Test
+* Fixed bugs in Web browsing test
+
 ## v1.7.0
 * Split the Travel eSIM Connectivity Test into two separate tests: Travel eSIM Connectivity Test and eSIM Activation Test.
 * Fixed bugs in the app.
