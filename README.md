@@ -3,6 +3,10 @@
 
 ## Changelog
 
+## v1.7.2
+* Fixed bugs in eSIM Connectivity Test
+* Fixed bugs in Web browsing test
+
 ## v1.7.1
 * Fixed bugs in eSIM Activation Test
 * Fixed bugs in Web browsing test
